@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="t d">
+<title id="t">Unisoc firmware preparation workflow</title>
+<desc id="d">A safe workflow from exact device identification through PAC package verification and authorized service decision.</desc>
+<defs><style> .bg{fill:#101a20}.card{fill:#1c3039;stroke:#5f8793;stroke-width:2}.safe{fill:#183c32;stroke:#6bbf91;stroke-width:2}.stop{fill:#482b2b;stroke:#e58c82;stroke-width:2}.h{font:700 25px Arial;fill:#f3f7f8}.p{font:17px Arial;fill:#d5e2e5}.s{font:700 16px Arial;fill:#a9d9c0}.line{stroke:#a9c5cb;stroke-width:3;fill:none;marker-end:url(#a)}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6" fill="#a9c5cb"/></marker></defs>
+<rect class="bg" width="1100" height="680" rx="22"/>
+<text x="550" y="48" text-anchor="middle" class="h">UNISOC / SPREADTRUM — SAFE FIRMWARE PREPARATION</text>
+<rect class="card" x="350" y="85" width="400" height="82" rx="14"/><text x="550" y="118" text-anchor="middle" class="h">1. Identify exact handset</text><text x="550" y="145" text-anchor="middle" class="p">Model • board • region • build</text>
+<path class="line" d="M550 167 V205"/>
+<rect class="card" x="350" y="210" width="400" height="82" rx="14"/><text x="550" y="243" text-anchor="middle" class="h">2. Confirm platform</text><text x="550" y="270" text-anchor="middle" class="p">Use OEM records; chipset alone is not enough</text>
+<path class="line" d="M550 292 V330"/>
+<rect class="card" x="350" y="335" width="400" height="82" rx="14"/><text x="550" y="368" text-anchor="middle" class="h">3. Verify PAC package</text><text x="550" y="395" text-anchor="middle" class="p">Trusted source • target • integrity • version</text>
+<path class="line" d="M550 417 V455"/>
+<rect class="safe" x="350" y="460" width="400" height="82" rx="14"/><text x="550" y="493" text-anchor="middle" class="h">4. Authorized service decision</text><text x="550" y="520" text-anchor="middle" class="p">Backup • consent • tool • recovery plan</text>
+<path class="line" d="M350 500 H220 V590"/>
+<rect class="stop" x="35" y="560" width="370" height="82" rx="14"/><text x="220" y="593" text-anchor="middle" class="h">STOP / REFER</text><text x="220" y="620" text-anchor="middle" class="p">Unknown model, package or authorization</text>
+<path class="line" d="M750 500 H880 V590"/>
+<rect class="safe" x="695" y="560" width="370" height="82" rx="14"/><text x="880" y="593" text-anchor="middle" class="h">PROCEED ONLY IF APPROVED</text><text x="880" y="620" text-anchor="middle" class="p">Follow exact OEM service instructions</text>
+</svg>
