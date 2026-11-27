@@ -29,6 +29,7 @@ This course focuses on practical phone software servicing through commands and o
 - Identify package types: Samsung multi-file firmware, MediaTek scatter packages, Unisoc PAC packages and Qualcomm factory/service packages.
 - Study MediaTek scatter metadata and package verification without writing partitions.
 - Identify Unisoc / Spreadtrum devices and understand PAC package metadata and authorized Research Download / Upgrade Download service paths.
+- Complete Lesson 28: Unisoc PAC fundamentals, read-only ADB checks and package hash auditing.
 - Identify M-KOPA-supplied handsets by their actual OEM/model/chipset and follow authorized servicing routes; do not bypass financing or device-management controls.
 - Learn official/vendor-supported restoration paths.
 - Understand bootloader state, AVB, dynamic partitions, A/B slots and anti-rollback constraints.
