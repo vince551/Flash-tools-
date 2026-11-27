@@ -19,6 +19,8 @@ A practical, command-led learning repository for servicing **Android phones and 
 9. [Device Inspector — first Windows utility](docs/08-device-inspector-tool.md)
 10. [Android vs iPhone workflows](docs/09-iphone-vs-android-workflows.md)
 11. [Android Recovery Assistant — second Windows utility](docs/10-android-recovery-assistant.md)
+12. [Android firmware identification](docs/11-android-firmware-identification.md)
+13. [Chipset and manufacturer service families](docs/12-chipset-service-families.md)
 
 ## Visual learning guides
 
@@ -38,6 +40,10 @@ A practical, command-led learning repository for servicing **Android phones and 
 
 ![iPhone restore workflow](images/iphone-restore-workflow.svg)
 
+### Firmware identification
+
+![Firmware identification flow](images/firmware-identification-flow.svg)
+
 ## First coding tool
 
 The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-inspector.ps1`](tools/windows/flash-tools-inspector.ps1). See the [run instructions](docs/08-device-inspector-tool.md). It detects an authorized ADB device, reads basic properties and saves a local TXT/JSON report. It does not reset, unlock, root or flash.
@@ -51,6 +57,7 @@ The [Android Recovery Assistant](tools/windows/android-recovery-assistant.ps1) i
 - Read-only device and firmware inspection
 - Recovery-mode factory reset
 - Official stock firmware identification and restoration
+- Model, codename, build fingerprint, region and package verification
 - Samsung Odin / Download Mode concepts
 - MediaTek SP Flash Tool concepts
 - Unisoc Research Download / Upgrade Download concepts
