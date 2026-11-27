@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">iPhone restore workflow</title><desc id="desc">Back up, connect to Apple Devices, choose update or restore, allow signed iOS installation and verify setup.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#26344a"/></linearGradient></defs>
+<rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+<text x="60" y="76" fill="#fff" font-family="Arial,sans-serif" font-size="36" font-weight="700">IPHONE RESTORE WORKFLOW</text>
+<text x="60" y="112" fill="#a9c2d2" font-family="Arial,sans-serif" font-size="20">Use Apple's supported Windows restore process</text>
+<g>
+<rect x="55" y="190" width="205" height="205" rx="20" fill="#203548" stroke="#60a5fa" stroke-width="2"/>
+<path d="M115 235h84v100h-84z" rx="8" fill="#102334" stroke="#93c5fd" stroke-width="3"/>
+<path d="M130 260h54M130 278h54M130 296h42" stroke="#93c5fd" stroke-width="4" stroke-linecap="round"/>
+<text x="157" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="21" font-weight="700">1. BACK UP</text>
+<rect x="330" y="190" width="205" height="205" rx="20" fill="#203548" stroke="#60a5fa" stroke-width="2"/>
+<rect x="378" y="235" width="110" height="74" rx="9" fill="#102334" stroke="#93c5fd" stroke-width="3"/>
+<path d="M390 322h86M403 310v12M463 310v12" stroke="#93c5fd" stroke-width="4" stroke-linecap="round"/>
+<text x="432" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="21" font-weight="700">2. CONNECT</text>
+<rect x="605" y="190" width="205" height="205" rx="20" fill="#3b3020" stroke="#f59e0b" stroke-width="2"/>
+<path d="M665 245h80v65h-80z" fill="#2b2115" stroke="#ffd18a" stroke-width="3"/>
+<path d="M680 266h50M680 282h38" stroke="#ffd18a" stroke-width="4" stroke-linecap="round"/>
+<text x="707" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="21" font-weight="700">3. CHOOSE</text>
+<rect x="880" y="190" width="265" height="205" rx="20" fill="#203548" stroke="#34d399" stroke-width="2"/>
+<path d="M972 230h78v84h-78z" fill="#102c2a" stroke="#6ee7b7" stroke-width="3"/>
+<path d="M988 270l14 14 31-34" fill="none" stroke="#6ee7b7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1012" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="21" font-weight="700">4. VERIFY</text>
+<g stroke="#7dd3fc" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M266 292h56m-14-12 14 12-14 12"/><path d="M541 292h56m-14-12 14 12-14 12"/><path d="M816 292h56m-14-12 14 12-14 12"/></g>
+<text x="707" y="430" text-anchor="middle" fill="#ffd18a" font-family="Arial,sans-serif" font-size="17">Update may preserve data · Restore erases the iPhone</text>
+<rect x="55" y="465" width="1090" height="48" rx="12" fill="#153b32" stroke="#2f9d70"/>
+<text x="600" y="496" text-anchor="middle" fill="#b8f5d4" font-family="Arial,sans-serif" font-size="18" font-weight="700">Activation Lock and passcode protections remain in place</text>
+</g>
+</svg>
