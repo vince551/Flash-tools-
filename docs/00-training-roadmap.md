@@ -17,6 +17,7 @@ This course focuses on practical phone software servicing through commands and o
 
 ## Phase 3 — Android resets and recovery
 - Distinguish Settings reset, recovery reset, ADB reboot-to-recovery and full firmware restoration.
+- Use the Recovery Assistant to request a reboot without wiping data.
 - Understand what data is erased.
 - Learn when a reset cannot repair corrupted system firmware.
 - Respect Factory Reset Protection and account verification.
