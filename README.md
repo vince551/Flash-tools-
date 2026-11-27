@@ -18,6 +18,7 @@ A practical, command-led learning repository for servicing **Android phones and 
 8. [Safety, backups and troubleshooting](docs/07-safety-and-troubleshooting.md)
 9. [Device Inspector — first Windows utility](docs/08-device-inspector-tool.md)
 10. [Android vs iPhone workflows](docs/09-iphone-vs-android-workflows.md)
+11. [Android Recovery Assistant — second Windows utility](docs/10-android-recovery-assistant.md)
 
 ## Visual learning guides
 
@@ -29,6 +30,10 @@ A practical, command-led learning repository for servicing **Android phones and 
 
 ![Android service modes](images/android-boot-modes.svg)
 
+### Safe Android recovery workflow
+
+![Android Recovery Assistant](images/android-recovery-assistant.svg)
+
 ### iPhone restoration
 
 ![iPhone restore workflow](images/iphone-restore-workflow.svg)
@@ -36,6 +41,8 @@ A practical, command-led learning repository for servicing **Android phones and 
 ## First coding tool
 
 The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-inspector.ps1`](tools/windows/flash-tools-inspector.ps1). See the [run instructions](docs/08-device-inspector-tool.md). It detects an authorized ADB device, reads basic properties and saves a local TXT/JSON report. It does not reset, unlock, root or flash.
+
+The [Android Recovery Assistant](tools/windows/android-recovery-assistant.ps1) is the second utility. It can request a reboot to Recovery or Bootloader after explicit confirmation. It does not wipe, unlock or flash.
 
 ## Supported learning areas
 
@@ -79,7 +86,7 @@ The initial Android practice device is the learner's **itel A60s (reported model
 ## Progress
 - [ ] Windows tools installed
 - [ ] Lesson 1: ADB connection and read-only inspection
-- [ ] Android reset and recovery
+- [ ] Android reset and recovery (learn menu navigation without wiping)
 - [ ] Firmware identification and chipset families
 - [ ] First supervised stock firmware restoration
 - [ ] iPhone backup and restore workflow
