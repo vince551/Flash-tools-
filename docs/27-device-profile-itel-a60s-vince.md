@@ -10,7 +10,7 @@
 | Model | A662LM |
 | Marketing name | itel A60s |
 | Android version | 12 |
-| Build number (as reported) | `A662LM-SR370ABCDEFGHIJ-SGo-GL-250401V596` |
+| Build number (as reported) | `A662LM-SR370ABCDEFGIJ-SGo-GL-250401V596` |
 | UI version | itelV8.6.0 (OS8.6-S-P202-230606) |
 | Android security patch | 2025-03-05 |
 | Google Play system update | 2026-10-01 |
@@ -33,7 +33,7 @@ Do not publish or add IMEI, serial number, phone number, account details, or oth
 
 The owner-reported build contains:
 
-`A662LM-SR370**ABCDEFGHIJ**-SGo-GL-250401V596`
+`A662LM-SR370**ABCDEFGIJ**-SGo-GL-250401V596`
 
 Some third-party firmware indexes show a very similar string with a different middle sequence:
 
@@ -99,7 +99,7 @@ Do not use generic PAC flashing instructions as a substitute for exact package v
 
 ## 6. Next practical exercise
 
-**Exercise A — phone-only, no changes:** Open Settings → About phone and compare the displayed build number character by character with the value in this record. Record whether the middle sequence is exactly `ABCDEFGHIJ` or `ABCDEFGIJ`.
+**Exercise A — phone-only, no changes:** The owner has confirmed that the middle sequence is `ABCDEFGIJ` (without H). Use this as the corrected Settings transcription.
 
 **Exercise B — when a Windows PC is available:** Run the read-only ADB commands in Section 3 and compare `ro.build.display.id`, `ro.build.fingerprint`, `ro.board.platform`, and `gsm.version.baseband` with the Settings values.
 
