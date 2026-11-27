@@ -37,6 +37,7 @@ A practical, command-led learning repository for servicing **Android phones and 
 27. [Case Study 1 — itel A60s (A662LM)](docs/26-case-study-itel-a60s-a662lm.md)
 28. [Owner device profile — itel A60s (A662LM)](docs/27-device-profile-itel-a60s-vince.md)
 29. [Lesson 28 — Unisoc PAC firmware fundamentals](docs/28-unisoc-pac-firmware-fundamentals.md)
+30. [Complete mobile servicing package library](docs/29-complete-servicing-package-library.md)
 
 ## Visual learning guides
 
