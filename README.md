@@ -22,6 +22,8 @@ A practical, command-led learning repository for servicing **Android phones and 
 12. [Android firmware identification](docs/11-android-firmware-identification.md)
 13. [Chipset and manufacturer service families](docs/12-chipset-service-families.md)
 14. [MediaTek servicing](docs/13-mediatek-servicing.md)
+15. [Unisoc / Spreadtrum servicing](docs/14-unisoc-servicing.md)
+16. [M-KOPA phones — authorized servicing and firmware guide](docs/15-mkopa-phone-servicing.md)
 
 ## Visual learning guides
 
@@ -49,6 +51,10 @@ A practical, command-led learning repository for servicing **Android phones and 
 
 ![MediaTek firmware workflow](images/mediatek-firmware-workflow.svg)
 
+### Unisoc firmware preparation
+
+![Unisoc firmware workflow](images/unisoc-firmware-workflow.svg)
+
 ## First coding tool
 
 The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-inspector.ps1`](tools/windows/flash-tools-inspector.ps1). See the [run instructions](docs/08-device-inspector-tool.md). It detects an authorized ADB device, reads basic properties and saves a local TXT/JSON report. It does not reset, unlock, root or flash.
@@ -66,6 +72,7 @@ The [Android Recovery Assistant](tools/windows/android-recovery-assistant.ps1) i
 - Samsung Odin / Download Mode concepts
 - MediaTek scatter package identification and SP Flash Tool concepts
 - Unisoc Research Download / Upgrade Download concepts
+- M-KOPA handset identification and authorized service pathways (OEM/chipset-specific; no payment-lock bypass)
 - Qualcomm EDL / QFIL concepts
 - Partition maps, boot images and firmware package formats
 
