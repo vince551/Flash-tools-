@@ -23,7 +23,9 @@ This course focuses on practical phone software servicing through commands and o
 - Respect Factory Reset Protection and account verification.
 
 ## Phase 4 — Android firmware and chipset families
-- Verify exact model, region, hardware revision and build.
+- Verify exact model, codename, region, hardware revision and build fingerprint.
+- Identify chipset family without assuming chipset alone proves firmware compatibility.
+- Verify official package metadata, signature/checksum and anti-rollback requirements.
 - Identify package types: Samsung multi-file firmware, MediaTek scatter packages, Unisoc PAC packages and Qualcomm factory/service packages.
 - Learn official/vendor-supported restoration paths.
 - Understand bootloader state, AVB, dynamic partitions, A/B slots and anti-rollback constraints.
