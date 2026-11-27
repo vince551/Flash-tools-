@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="t d">
+<title id="t">itel A60s A662LM safe service case study</title><desc id="d">A five-step safe process: confirm model, inspect read-only, identify platform, verify authorized firmware and make a service decision.</desc>
+<defs><style>.bg{fill:#101a20}.card{fill:#1d3038;stroke:#6b929b;stroke-width:2}.ok{fill:#183d32;stroke:#70c69b;stroke-width:2}.stop{fill:#482b2b;stroke:#e58c82;stroke-width:2}.h{font:700 23px Arial;fill:#f3f7f8}.p{font:16px Arial;fill:#d5e2e5}.line{stroke:#a9c5cb;stroke-width:3;fill:none;marker-end:url(#arr)}</style><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6" fill="#a9c5cb"/></marker></defs>
+<rect class="bg" width="1100" height="560" rx="22"/><text x="550" y="44" text-anchor="middle" class="h">ITEL A60s (A662LM) — SAFE SERVICE CASE</text>
+<rect class="card" x="55" y="95" width="290" height="105" rx="14"/><text x="200" y="133" text-anchor="middle" class="h">1. Confirm model</text><text x="200" y="164" text-anchor="middle" class="p">Label • Settings • model code</text>
+<path class="line" d="M345 148 H400"/>
+<rect class="card" x="405" y="95" width="290" height="105" rx="14"/><text x="550" y="133" text-anchor="middle" class="h">2. Read-only inspection</text><text x="550" y="164" text-anchor="middle" class="p">ADB properties • build • symptom</text>
+<path class="line" d="M695 148 H750"/>
+<rect class="card" x="755" y="95" width="290" height="105" rx="14"/><text x="900" y="133" text-anchor="middle" class="h">3. Verify platform</text><text x="900" y="164" text-anchor="middle" class="p">OEM records • board • variant</text>
+<path class="line" d="M900 200 V260"/>
+<rect class="card" x="405" y="265" width="640" height="105" rx="14"/><text x="725" y="303" text-anchor="middle" class="h">4. Verify authorized firmware</text><text x="725" y="334" text-anchor="middle" class="p">Exact target • trusted source • hash • consent • recovery plan</text>
+<path class="line" d="M725 370 V425"/>
+<rect class="ok" x="575" y="430" width="470" height="90" rx="14"/><text x="810" y="465" text-anchor="middle" class="h">Proceed only with OEM approval</text><text x="810" y="493" text-anchor="middle" class="p">Follow exact authorized procedure</text>
+<path class="line" d="M405 317 H200 V425"/>
+<rect class="stop" x="55" y="430" width="290" height="90" rx="14"/><text x="200" y="465" text-anchor="middle" class="h">STOP / REFER</text><text x="200" y="493" text-anchor="middle" class="p">Unknown model, package or approval</text>
+</svg>
