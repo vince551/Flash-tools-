@@ -24,6 +24,16 @@ A practical, command-led learning repository for servicing **Android phones and 
 14. [MediaTek servicing](docs/13-mediatek-servicing.md)
 15. [Unisoc / Spreadtrum servicing](docs/14-unisoc-servicing.md)
 16. [M-KOPA phones — authorized servicing and firmware guide](docs/15-mkopa-phone-servicing.md)
+17. [Official tool download directory](docs/16-tool-download-directory.md)
+18. [Android command reference](docs/17-command-reference.md)
+19. [Samsung Galaxy servicing](docs/18-samsung-servicing.md)
+20. [Xiaomi / Redmi / POCO servicing](docs/19-xiaomi-servicing.md)
+21. [TECNO / Infinix / itel servicing](docs/20-tecno-infinix-itel-servicing.md)
+22. [Google Pixel and Motorola / Lenovo servicing](docs/21-pixel-motorola-servicing.md)
+23. [iPhone servicing toolkit](docs/22-iphone-servicing-toolkit.md)
+24. [USB drivers and troubleshooting](docs/23-drivers-and-troubleshooting.md)
+25. [Firmware package audit utility](docs/24-firmware-package-audit.md)
+26. [Technician service job record](docs/25-service-job-record.md)
 
 ## Visual learning guides
 
@@ -61,6 +71,8 @@ The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-ins
 
 The [Android Recovery Assistant](tools/windows/android-recovery-assistant.ps1) is the second utility. It can request a reboot to Recovery or Bootloader after explicit confirmation. It does not wipe, unlock or flash.
 
+The [Firmware Package Audit](tools/windows/firmware-package-audit.ps1) is a read-only utility that calculates SHA-256 and lists ZIP contents. It does not extract or flash firmware. See [Lesson 24](docs/24-firmware-package-audit.md).
+
 ## Supported learning areas
 
 ### Android
@@ -97,6 +109,11 @@ The initial Android practice device is the learner's **itel A60s (reported model
 
 ## Official starting points
 - Android SDK Platform-Tools: https://developer.android.com/tools/releases/platform-tools
+- Google Pixel Android Flash Tool: https://flash.android.com/
+- Google Pixel factory images: https://developers.google.com/android/images
+- Samsung Smart Switch: https://www.samsung.com/africa_en/support/smart-switch/
+- Motorola Rescue and Smart Assistant: https://www.motorola.in/rescue-and-smart-assistant/p
+- Carlcare (TECNO / Infinix / itel support): https://www.carlcare.com/
 - Android Debug Bridge: https://developer.android.com/tools/adb
 - Android device USB setup: https://developer.android.com/studio/run/device
 - Apple Devices for Windows: https://support.apple.com/guide/devices-windows/welcome/windows
