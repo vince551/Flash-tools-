@@ -34,7 +34,15 @@ This course focuses on practical phone software servicing through commands and o
 - Understand bootloader state, AVB, dynamic partitions, A/B slots and anti-rollback constraints.
 - Perform flashing only on a known-compatible device with verified firmware and a recovery plan.
 
-## Phase 5 — iPhone servicing
+## Phase 5 — Manufacturer-specific servicing
+- Samsung Galaxy: Smart Switch and authorized Download Mode service workflow.
+- Xiaomi / Redmi / POCO: model codename, region, Recovery ROM versus Fastboot ROM, and official support checks.
+- TECNO / Infinix / itel: Carlcare support and exact MediaTek/Unisoc model identification.
+- Google Pixel: Android Flash Tool and factory-image workflow with wipe/bootloader warnings.
+- Motorola / Lenovo: official Rescue and Smart Assistant support check.
+- M-KOPA-supplied devices: actual OEM/chipset identification and authorized support route.
+
+## Phase 6 — iPhone servicing
 - Install Apple Devices for Windows.
 - Back up using supported Apple workflows.
 - Update versus restore.
@@ -42,7 +50,7 @@ This course focuses on practical phone software servicing through commands and o
 - IPSW files, signing and restore eligibility.
 - Read restore errors and perform supported troubleshooting.
 
-## Phase 6 — Technician workflow
+## Phase 7 — Technician workflow
 For every service job:
 1. Confirm ownership/authorization.
 2. Record exact model and current condition.
@@ -54,6 +62,14 @@ For every service job:
 8. Perform the operation.
 9. Verify boot, network, cameras, charging, sensors and account setup.
 10. Record outcome and any error codes.
+
+## Phase 8 — Tools, commands and service records
+- Use the official tool download directory and verify publisher/source.
+- Practice read-only ADB/Fastboot commands before any service action.
+- Check USB drivers and troubleshoot connection states.
+- Audit firmware package hashes and archive contents before use.
+- Complete a service job record and post-repair verification checklist.
+- Test Windows utilities on a Windows PC; phone-only GitHub editing does not execute Windows scripts.
 
 ## Practical rule
 Do not use a command simply because it exists. Know its target, effect, prerequisites and rollback plan first.
