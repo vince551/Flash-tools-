@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Safe Android Recovery Assistant workflow</title>
+<desc id="desc">Connect and authorize one Android device, choose Recovery or Bootloader reboot, confirm, then inspect the phone without wiping or flashing.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071b25"/><stop offset="1" stop-color="#102d3a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38d6c3"/><stop offset="1" stop-color="#68a9ff"/></linearGradient>
+  <style>
+    .h{font:700 34px Arial;fill:#f4fbff}.sub{font:18px Arial;fill:#b9d0dc}.box{fill:#153847;stroke:#3c7180;stroke-width:2}.t{font:700 20px Arial;fill:#f4fbff}.s{font:16px Arial;fill:#c5dbe3}.n{font:700 19px Arial;fill:#071b25}.warn{font:700 19px Arial;fill:#ffd27d}
+  </style>
+</defs>
+<rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+<text x="60" y="76" class="h">ANDROID RECOVERY ASSISTANT</text>
+<text x="60" y="112" class="sub">A controlled reboot workflow — not a reset or firmware flasher</text>
+<g transform="translate(55 185)">
+  <rect class="box" width="235" height="190" rx="20"/>
+  <circle cx="34" cy="34" r="19" fill="url(#accent)"/><text x="34" y="41" text-anchor="middle" class="n">1</text>
+  <text x="28" y="83" class="t">Connect phone</text><text x="28" y="116" class="s">USB cable</text><text x="28" y="144" class="s">USB debugging on</text><text x="28" y="169" class="s">Approve trusted PC</text>
+</g>
+<path d="M300 280 H345" stroke="#69c9c5" stroke-width="4" fill="none"/><path d="M335 270 L347 280 L335 290" stroke="#69c9c5" stroke-width="4" fill="none"/>
+<g transform="translate(355 185)">
+  <rect class="box" width="235" height="190" rx="20"/>
+  <circle cx="34" cy="34" r="19" fill="url(#accent)"/><text x="34" y="41" text-anchor="middle" class="n">2</text>
+  <text x="28" y="83" class="t">Verify one device</text><text x="28" y="116" class="s">adb devices</text><text x="28" y="144" class="s">State must be</text><text x="28" y="169" class="s">authorized: device</text>
+</g>
+<path d="M600 280 H645" stroke="#69c9c5" stroke-width="4" fill="none"/><path d="M635 270 L647 280 L635 290" stroke="#69c9c5" stroke-width="4" fill="none"/>
+<g transform="translate(655 185)">
+  <rect class="box" width="235" height="190" rx="20"/>
+  <circle cx="34" cy="34" r="19" fill="url(#accent)"/><text x="34" y="41" text-anchor="middle" class="n">3</text>
+  <text x="28" y="83" class="t">Choose reboot</text><text x="28" y="116" class="s">Recovery OR</text><text x="28" y="144" class="s">Bootloader</text><text x="28" y="169" class="s">Confirm REBOOT</text>
+</g>
+<path d="M900 280 H945" stroke="#69c9c5" stroke-width="4" fill="none"/><path d="M935 270 L947 280 L935 290" stroke="#69c9c5" stroke-width="4" fill="none"/>
+<g transform="translate(955 185)">
+  <rect class="box" width="190" height="190" rx="20"/>
+  <circle cx="34" cy="34" r="19" fill="url(#accent)"/><text x="34" y="41" text-anchor="middle" class="n">4</text>
+  <text x="25" y="83" class="t">Inspect mode</text><text x="25" y="116" class="s">Read screen</text><text x="25" y="144" class="s">Follow official</text><text x="25" y="169" class="s">device guide</text>
+</g>
+<rect x="55" y="425" width="1090" height="125" rx="18" fill="#3b2b20" stroke="#c88a3c" stroke-width="2"/>
+<text x="85" y="470" class="warn">SAFETY: NO WIPE • NO UNLOCK • NO ROOT • NO FLASH</text>
+<text x="85" y="508" class="s">Entering Recovery does not erase data. Selecting “Wipe data/factory reset” does.</text>
+<text x="85" y="534" class="s">Back up first, obtain owner consent, and verify exact model-specific instructions.</text>
+</svg>
