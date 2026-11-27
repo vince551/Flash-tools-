@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Mobile servicing package library map</title>
+<desc id="desc">A safe workflow from device identification through official package source, verification, audit, and authorized service.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071b1b"/><stop offset="1" stop-color="#102b35"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e7490"/><stop offset="1" stop-color="#155e75"/></linearGradient></defs>
+<rect width="1200" height="675" rx="30" fill="url(#bg)"/>
+<text x="600" y="70" fill="#f0fdfa" font-family="Arial,sans-serif" font-size="34" font-weight="700" text-anchor="middle">MOBILE SERVICING PACKAGE LIBRARY</text>
+<text x="600" y="108" fill="#a7f3d0" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">Identify → Source → Verify → Audit → Authorized service</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="70" y="170" width="300" height="170" rx="20" fill="#163b45" stroke="#2dd4bf" stroke-width="2"/>
+<text x="220" y="215" fill="#99f6e4" font-size="23" font-weight="700">1. IDENTIFY DEVICE</text><text x="220" y="255" fill="#e2e8f0" font-size="18">Brand • model • variant</text><text x="220" y="285" fill="#e2e8f0" font-size="18">Region • chipset • build</text>
+<rect x="450" y="170" width="300" height="170" rx="20" fill="#163b45" stroke="#2dd4bf" stroke-width="2"/>
+<text x="600" y="215" fill="#99f6e4" font-size="23" font-weight="700">2. OFFICIAL SOURCE</text><text x="600" y="255" fill="#e2e8f0" font-size="18">OEM support portal</text><text x="600" y="285" fill="#e2e8f0" font-size="18">Authorized service network</text>
+<rect x="830" y="170" width="300" height="170" rx="20" fill="#163b45" stroke="#2dd4bf" stroke-width="2"/>
+<text x="980" y="215" fill="#99f6e4" font-size="23" font-weight="700">3. VERIFY PACKAGE</text><text x="980" y="255" fill="#e2e8f0" font-size="18">Publisher • signature</text><text x="980" y="285" fill="#e2e8f0" font-size="18">Build • region • hash</text>
+<path d="M370 255H440M750 255H820" stroke="#5eead4" stroke-width="5" stroke-linecap="round"/><path d="m430 243 12 12-12 12M810 243l12 12-12 12" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="260" y="430" width="300" height="155" rx="20" fill="url(#a)" stroke="#67e8f9" stroke-width="2"/>
+<text x="410" y="475" fill="#ecfeff" font-size="23" font-weight="700">4. READ-ONLY AUDIT</text><text x="410" y="515" fill="#e0f2fe" font-size="18">SHA-256 • archive listing</text><text x="410" y="545" fill="#e0f2fe" font-size="18">No flashing or partition writes</text>
+<rect x="640" y="430" width="300" height="155" rx="20" fill="#164e3e" stroke="#86efac" stroke-width="2"/>
+<text x="790" y="475" fill="#dcfce7" font-size="23" font-weight="700">5. AUTHORIZED SERVICE</text><text x="790" y="515" fill="#f0fdf4" font-size="18">Backup • consent • compatibility</text><text x="790" y="545" fill="#f0fdf4" font-size="18">Technician-led restoration</text>
+<path d="M980 340V385H410V420M560 507H630" stroke="#5eead4" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="m398 410 12 12 12-12M618 495l12 12-12 12" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g><text x="600" y="635" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16" text-anchor="middle">Never install a package based on its filename alone.</text></svg>
