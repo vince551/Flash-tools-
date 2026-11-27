@@ -64,6 +64,7 @@ For every service job:
 10. Record outcome and any error codes.
 
 ## Phase 8 — Tools, commands and service records
+- Complete the itel A60s (A662LM) case study using read-only inspection before any restoration.
 - Use the official tool download directory and verify publisher/source.
 - Practice read-only ADB/Fastboot commands before any service action.
 - Check USB drivers and troubleshoot connection states.
