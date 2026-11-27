@@ -34,6 +34,7 @@ A practical, command-led learning repository for servicing **Android phones and 
 24. [USB drivers and troubleshooting](docs/23-drivers-and-troubleshooting.md)
 25. [Firmware package audit utility](docs/24-firmware-package-audit.md)
 26. [Technician service job record](docs/25-service-job-record.md)
+27. [Case Study 1 — itel A60s (A662LM)](docs/26-case-study-itel-a60s-a662lm.md)
 
 ## Visual learning guides
 
@@ -64,6 +65,10 @@ A practical, command-led learning repository for servicing **Android phones and 
 ### Unisoc firmware preparation
 
 ![Unisoc firmware workflow](images/unisoc-firmware-workflow.svg)
+
+### itel A60s case study
+
+![itel A60s service workflow](images/itel-a60s-service-workflow.svg)
 
 ## First coding tool
 
