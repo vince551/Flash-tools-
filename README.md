@@ -16,6 +16,26 @@ A practical, command-led learning repository for servicing **Android phones and 
 6. [iPhone restore, recovery and DFU](docs/05-iphone-servicing.md)
 7. [Tools and official downloads](docs/06-tools-catalog.md)
 8. [Safety, backups and troubleshooting](docs/07-safety-and-troubleshooting.md)
+9. [Device Inspector — first Windows utility](docs/08-device-inspector-tool.md)
+10. [Android vs iPhone workflows](docs/09-iphone-vs-android-workflows.md)
+
+## Visual learning guides
+
+### Android device inspection
+
+![Android inspection workflow](images/android-inspection-workflow.svg)
+
+### Android operating modes
+
+![Android service modes](images/android-boot-modes.svg)
+
+### iPhone restoration
+
+![iPhone restore workflow](images/iphone-restore-workflow.svg)
+
+## First coding tool
+
+The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-inspector.ps1`](tools/windows/flash-tools-inspector.ps1). See the [run instructions](docs/08-device-inspector-tool.md). It detects an authorized ADB device, reads basic properties and saves a local TXT/JSON report. It does not reset, unlock, root or flash.
 
 ## Supported learning areas
 
