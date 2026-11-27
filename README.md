@@ -21,6 +21,7 @@ A practical, command-led learning repository for servicing **Android phones and 
 11. [Android Recovery Assistant — second Windows utility](docs/10-android-recovery-assistant.md)
 12. [Android firmware identification](docs/11-android-firmware-identification.md)
 13. [Chipset and manufacturer service families](docs/12-chipset-service-families.md)
+14. [MediaTek servicing](docs/13-mediatek-servicing.md)
 
 ## Visual learning guides
 
@@ -44,6 +45,10 @@ A practical, command-led learning repository for servicing **Android phones and 
 
 ![Firmware identification flow](images/firmware-identification-flow.svg)
 
+### MediaTek firmware preparation
+
+![MediaTek firmware workflow](images/mediatek-firmware-workflow.svg)
+
 ## First coding tool
 
 The read-only Windows PowerShell inspector is at [`tools/windows/flash-tools-inspector.ps1`](tools/windows/flash-tools-inspector.ps1). See the [run instructions](docs/08-device-inspector-tool.md). It detects an authorized ADB device, reads basic properties and saves a local TXT/JSON report. It does not reset, unlock, root or flash.
@@ -59,7 +64,7 @@ The [Android Recovery Assistant](tools/windows/android-recovery-assistant.ps1) i
 - Official stock firmware identification and restoration
 - Model, codename, build fingerprint, region and package verification
 - Samsung Odin / Download Mode concepts
-- MediaTek SP Flash Tool concepts
+- MediaTek scatter package identification and SP Flash Tool concepts
 - Unisoc Research Download / Upgrade Download concepts
 - Qualcomm EDL / QFIL concepts
 - Partition maps, boot images and firmware package formats
