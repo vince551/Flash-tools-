@@ -1,0 +1,68 @@
+# Flash Tools — Mobile Phone Servicing Training
+
+A practical, command-led learning repository for servicing **Android phones and Apple iPhones** using legitimate software tools.
+
+**Training approach:** learn the command, understand what it changes, inspect the device, back up data, then perform only model-compatible operations.
+
+> This repository is a learning guide, not a universal one-click flasher. Android procedures differ by manufacturer, chipset, model, firmware build and bootloader state. iPhones use Apple's signed restore process rather than Android-style Fastboot flashing.
+
+## Start here
+
+1. [Training roadmap](docs/00-training-roadmap.md)
+2. [Windows workstation setup](docs/01-windows-setup.md)
+3. [Lesson 1 — ADB device inspection](docs/02-lesson-01-adb-inspection.md)
+4. [Android factory reset and recovery](docs/03-android-reset-and-recovery.md)
+5. [Android firmware flashing by chipset](docs/04-android-firmware-flashing.md)
+6. [iPhone restore, recovery and DFU](docs/05-iphone-servicing.md)
+7. [Tools and official downloads](docs/06-tools-catalog.md)
+8. [Safety, backups and troubleshooting](docs/07-safety-and-troubleshooting.md)
+
+## Supported learning areas
+
+### Android
+- ADB and Fastboot fundamentals
+- Read-only device and firmware inspection
+- Recovery-mode factory reset
+- Official stock firmware identification and restoration
+- Samsung Odin / Download Mode concepts
+- MediaTek SP Flash Tool concepts
+- Unisoc Research Download / Upgrade Download concepts
+- Qualcomm EDL / QFIL concepts
+- Partition maps, boot images and firmware package formats
+
+### iPhone
+- Apple Devices for Windows
+- Backup, update and restore workflows
+- Recovery mode and DFU mode
+- IPSW firmware concepts
+- Restore errors and diagnostics
+
+## First device for practice
+
+The initial Android practice device is the learner's **itel A60s (reported model A662LM)**. Always verify the exact model and build from the connected device before selecting firmware. Do not assume firmware for a similar-looking model is compatible.
+
+## Important limits
+- No FRP, Activation Lock, passcode, MDM, carrier-lock or account-security bypass instructions.
+- No IMEI alteration, identity spoofing, or unauthorized access.
+- Do not flash firmware unless the exact model/variant and package have been verified.
+- Factory reset and restore operations erase user data. Back up first and obtain the owner's permission.
+- Some devices do not expose Fastboot or permit bootloader unlocking.
+- iPhone restore is performed through Apple's supported software and signed firmware flow; a generic ADB/Fastboot command cannot flash iOS.
+
+## Official starting points
+- Android SDK Platform-Tools: https://developer.android.com/tools/releases/platform-tools
+- Android Debug Bridge: https://developer.android.com/tools/adb
+- Android device USB setup: https://developer.android.com/studio/run/device
+- Apple Devices for Windows: https://support.apple.com/guide/devices-windows/welcome/windows
+- Apple iPhone restore guidance: https://support.apple.com/118107
+
+## Progress
+- [ ] Windows tools installed
+- [ ] Lesson 1: ADB connection and read-only inspection
+- [ ] Android reset and recovery
+- [ ] Firmware identification and chipset families
+- [ ] First supervised stock firmware restoration
+- [ ] iPhone backup and restore workflow
+- [ ] iPhone recovery and DFU practice
+
+**Maintainer:** Vince / Flash Tools learning project
